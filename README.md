@@ -70,3 +70,8 @@ To run the app locally, follow these steps:
 3. Build and run the app on an Android emulator or device.
 
 ## 📷 Screenshots
+<img width="372" alt="Снимок экрана 2023-09-19 в 13 28 49" src="https://github.com/TheDavich/PhoneBook/assets/87846576/b41a5be3-a3b3-4562-b365-b83bab70c721">
+
+<img width="374" alt="Снимок экрана 2023-09-19 в 13 29 10" src="https://github.com/TheDavich/PhoneBook/assets/87846576/f24f8134-7916-465d-9513-58056a33e433">
+
+<img width="367" alt="Снимок экрана 2023-09-19 в 13 29 52" src="https://github.com/TheDavich/PhoneBook/assets/87846576/87b638bb-53ab-4a24-817d-f20cb6e64b31">
