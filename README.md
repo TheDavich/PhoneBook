@@ -18,7 +18,7 @@ interface ContactDao {
 ```
 The ContactDao interface defines the data access methods for interacting with the Room Database.
 
-### 🗃️ ContactDatabase 
+### `🗃️ ContactDatabase` 
 
 ```kotlin
 @Database(
@@ -31,7 +31,7 @@ abstract class ContactDatabase: RoomDatabase() {
 ```
 The ContactDatabase class represents the Room Database instance and provides access to the ContactDao.
 
-### ContactViewModel 
+### `ContactViewModel`
 
 ```kotlin
 @OptIn(ExperimentalCoroutinesApi::class)
@@ -41,11 +41,11 @@ class ContactViewModel(private val dao: ContactDao): ViewModel() {
 ```
 The ContactViewModel class manages UI data, communicates with the Room Database, and handles user interactions.
 
-### UI Components
+### `UI Components`
 
 The user interface is built using Jetpack Compose and includes components like ContactScreen, AddContactDialog, ContactList, and more.
 
-### 💉 Dependency Injection (DI)
+### `💉 Dependency Injection (DI)`
 The app uses Dependency Injection (DI) for managing dependencies:
 
 ```kotlin
@@ -55,7 +55,7 @@ class MainActivity : ComponentActivity() {
 ```
 The MainActivity class sets up the Room Database and initializes the ContactViewModel with the ContactDao.
 
-### Room Database
+### `Room Database`
 The app uses Room Database for storing and managing contact data.
 
 ### Data Classes
